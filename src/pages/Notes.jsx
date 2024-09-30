@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Helmet } from 'react-helmet-async';
 import { useDispatch, useSelector } from 'react-redux';
 import { deleteNote } from '../features/noteSlice';
-import { Update } from '../compnent/Update';
+import { Update } from '../compnent/Update'
 
 export const Notes = () => {
 
